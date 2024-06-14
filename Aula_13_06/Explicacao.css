@@ -1,0 +1,66 @@
+/*
+    css - cascading style sheets
+        - folhas de estilo em cacasta
+
+    Exemplo{
+        seletor{ propriedade: valor}
+    }
+
+    - metodo de como é usado
+    -inline
+    -style
+    -Arquivo externo
+    - site de icones(https://fonts.google.com/icons)
+    - Site de fontes(https://fonts.google.com/?icon.size=24&icon.color=%23e8eaed)
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /
+*/
+body {
+    background-color: papayawhip;
+    /*Altera a cor */
+    font-family: "Lato",sans-serif;
+    /*Altera a fonte do texto*/
+    color: midnightblue;
+    /*altera a cor do texto*/
+
+}
+.navbar ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Torna os itens flexíveis para alinhamento em linha */
+}
+
+.navbar ul li {
+    margin-right: 5px; /* Espaçamento entre os itens */
+}
+
+.navbar ul li a {
+    text-decoration: none; /* Remove a sublinha dos links */
+    color: midnightblue; /* Define a cor do texto do link */
+}
+
+.navbar ul li a:hover {
+    color: green /* Cor do link ao passar o mouse */
+}
+
+
+h1,h2,h3 {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+img{
+
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
