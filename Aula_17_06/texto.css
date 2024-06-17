@@ -1,0 +1,59 @@
+/*Propriedade fonte e texto*/
+body {
+    font-family: Arial;
+    /*Defie uma lista de fonte*/
+}
+
+p {
+    text-align: center;
+    /*alinha o texto em justify,center, left, right*/
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 600;
+    /*Peso da fonte*/
+    text-decoration: none;
+    letter-spacing: 2px;
+    /*espaçamento das letras*/
+    line-height: 25px;
+    /*espaçamento entre as linhas*/
+    color: rgba(2, 38, 199, 0.6);
+    /*também são usados outra notações, RGB,RGBA,Hexadecimal*/
+}
+
+
+/*
+    -unidade abusolutas(px,cm,pt)
+    -unidade relativas:
+        vh  = viewport height(altura da tela)
+        vw  = viewport width(largura da tela)
+        rem = relativo ao elemento pai
+        %   = relativo ao elemento raiz 
+*/
+
+
+.qua1 {
+    background-color: royalblue;
+    width: 200px;
+    /*largura*/
+    height: 200px;
+    /*altura*/
+}
+
+.qua2 {
+    background-color: papayawhip;
+    width: 50vw;
+    height: 50vh;
+}
+
+.qua3 {
+    background-color: tomato;
+    height: 70%;
+    width: 100%;
+
+}
+
+.qua4 {
+    background-color: rgb(14, 209, 14);
+    height: 300px;
+    width: 300px;
+}
