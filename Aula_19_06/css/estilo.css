@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: #0b0f19;
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.navbar img {
+    height: 100%;
+}
+
+
+.nav-link {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link a:hover {
+    color: #d9b800;
+}
+
+/*Seçao de cards*/
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.section-card {
+    width: 300px;
+    padding: 16px;
+    background-color: #d9b800;
+    display: flex;
+    gap: 16px;
+
+}
+
+.section-card img {
+    width: 120px;
+}
+
+.section-card p {
+    text-align: justify;
+}
+
+/*navbar responsivo*/
+@media (max-width: 480px) {
+
+    /* - trocar a navbar de row p/ column */
+    /* - redefinir a altura */
+    /* - alinhar os elementos */
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        gap: 12px;
+    }
+
+    /* - ajustar a largura */
+    .navbar img {
+        width: 128px;
+    }
+
+    /* - row p/ column */
+    .nav-link {
+        flex-direction: column;
+    }
+}
+
+
+/* Responsividade dos cards*/
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .section-card {
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+    }
+
+    .section-card img {
+        width: 100%;
+    }
+
+    .section-card p {
+        padding: 16px;
+    }
+}

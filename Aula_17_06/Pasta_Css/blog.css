@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.secao{
+    width: 400px;
+    margin: 16px auto;
+    background: linear-gradient(45deg, #bad8b6,#e9e8e8da);
+    border-radius: 15px;
+}
+
+/*
+    box shadow
+    ex: 
+        box-shadow: x y desfoque spread color
+
+*/
+.figura{
+    height: 150px;
+    box-shadow: 5px 5px 5px 0px grey;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.secao p{
+    text-shadow: 1px 1px 1px grey;
+    text-align: justify;
+    padding: 5px;
+}
+
+footer{
+    text-align: center;
+    border: 5px solid;
+    border-radius: 10px;
+    padding: 1px;
+    margin: 1px;
+}
